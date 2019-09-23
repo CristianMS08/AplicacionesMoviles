@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="0dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/categoria_ciencias"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorBackground"
+                android:drawableLeft="@mipmap/ic_ciencia_foreground"
+                android:gravity="center|left"
+                android:onClick="toOption"
+                android:text="@string/categoria_ciencias" />
+
+            <Button
+                android:id="@+id/categoria_historia"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorBackground"
+                android:drawableLeft="@mipmap/ic_historia_foreground"
+                android:gravity="center|left"
+                android:onClick="toOption"
+                android:text="@string/categoria_historia" />
+
+            <Button
+                android:id="@+id/categoria_comics"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorBackground"
+                android:drawableLeft="@mipmap/ic_comic_foreground"
+                android:gravity="center|left"
+                android:onClick="toOption"
+                android:text="@string/categoria_comics" />
+
+            <Button
+                android:id="@+id/categoria_novelas"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorBackground"
+                android:drawableLeft="@mipmap/ic_novelas_foreground"
+                android:gravity="center|left"
+                android:onClick="toOption"
+                android:text="@string/categoria_novelas" />
+
+            <Button
+                android:id="@+id/categoria_ciencia_ficcion"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorBackground"
+                android:drawableLeft="@mipmap/ic_ficcion_foreground"
+                android:gravity="center|left"
+                android:onClick="toOption"
+                android:text="@string/categoria_ciencia_ficcion" />
+
+            <Button
+                android:id="@+id/categoria_gastronomia"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorBackground"
+                android:drawableLeft="@mipmap/ic_gastronomia_foreground"
+                android:gravity="center|left"
+                android:onClick="toOption"
+                android:text="@string/categoria_gastronomia" />
+
+            <Button
+                android:id="@+id/categoria_idioma"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorBackground"
+                android:drawableLeft="@mipmap/ic_idiomas_foreground"
+                android:gravity="center|left"
+                android:onClick="toOption"
+                android:text="@string/categoria_idiomas" />
+
+            <Button
+                android:id="@+id/categoria_infantiles"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorBackground"
+                android:drawableLeft="@mipmap/ic_infantiles_foreground"
+                android:gravity="center|left"
+                android:onClick="toOption"
+                android:text="@string/categoria_infantiles" />
+
+            <Button
+                android:id="@+id/categoria_revistas"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorBackground"
+                android:drawableLeft="@mipmap/ic_revistas_foreground"
+                android:gravity="center|left"
+                android:onClick="toOption"
+                android:text="@string/categoria_revistas" />
+
+            <Button
+                android:id="@+id/categoria_terror"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:background="@color/colorBackground"
+                android:drawableLeft="@mipmap/ic_terror_foreground"
+                android:gravity="center|left"
+                android:onClick="toOption"
+                android:text="@string/categoria_terror" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

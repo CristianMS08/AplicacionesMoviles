@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.utadeo.librotec.MainActivity" >
+    <item
+        android:id="@+id/action_principal"
+        android:orderInCategory="102"
+        android:title="@string/action_principal" />
+    <item
+        android:id="@+id/action_buscar"
+        android:icon="@drawable/ic_search_foreground"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/buscar" />
+    <item
+        android:id="@+id/action_mensajes"
+        android:icon="@drawable/ic_mensaje_foreground"
+        android:title="@string/mensajes"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_perfil"
+        android:orderInCategory="103"
+        android:title="@string/action_perfil" />
+    <item
+        android:id="@+id/action_libros"
+        android:orderInCategory="104"
+        android:title="@string/action_libros" />
+    <item
+        android:id="@+id/action_cerrar"
+        android:orderInCategory="105"
+        android:title="@string/action_cerrar"
+        app:showAsAction="never" />
+</menu>

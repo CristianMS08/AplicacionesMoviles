@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Librotec</string>
+    <string name="action_cerrar">Cerrar sesión</string>
+    <string name="action_principal">Página principal</string>
+    <string name="action_perfil">Mi perfil</string>
+    <string name="action_libros">Mis libros</string>
+
+    <string name="categoria_novelas">Novelas</string>
+    <string name="categoria_comics">Cómics</string>
+    <string name="categoria_ciencias">Ciencias</string>
+    <string name="categoria_historia">Historia</string>
+    <string name="categoria_ciencia_ficcion">Ciencia ficción</string>
+    <string name="categoria_revistas">Revistas</string>
+    <string name="categoria_infantiles">Infantiles</string>
+    <string name="categoria_gastronomia">Gastronomía</string>
+    <string name="categoria_terror">Terror</string>
+    <string name="categoria_idiomas">Idiomas</string>
+
+    <string name="form_u_nombre">Nombre de Usuario</string>
+    <string name="form_u_telefono">Telefono</string>
+    <string name="form_u_correo">Correo Electronico</string>
+    <string name="form_u_ubicacion">Ubicación</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="cambiar_foto">Cambiar Foto</string>
+    <string name="buscar">Buscar</string>
+    <string name="mensajes">Mensajes</string>
+
+    <string name="ingresar">Ingresa con: </string>
+    <string name="cuenta_1">cuenta1@gmail.com</string>
+    <string name="cuenta_2">cuenta2@gmail.com</string>
+
+</resources>
